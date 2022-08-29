@@ -1,0 +1,17 @@
+setup.py
+StapleStruct/__init__.py
+StapleStruct.egg-info/PKG-INFO
+StapleStruct.egg-info/SOURCES.txt
+StapleStruct.egg-info/dependency_links.txt
+StapleStruct.egg-info/entry_points.txt
+StapleStruct.egg-info/requires.txt
+StapleStruct.egg-info/top_level.txt
+StapleStruct/converters/__init__.py
+StapleStruct/converters/to_nii.py
+StapleStruct/converters/to_rtstruct.py
+StapleStruct/converters/tests/__init__.py
+StapleStruct/converters/tests/test_convert_to_nii.py
+StapleStruct/converters/tests/test_convert_to_rtstruct.py
+StapleStruct/staple/__init__.py
+StapleStruct/staple/staple.py
+StapleStruct/staple/test_staple.py
