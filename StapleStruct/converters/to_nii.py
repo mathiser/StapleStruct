@@ -2,7 +2,7 @@ import logging
 import os
 import traceback
 from multiprocessing.pool import ThreadPool
-from typing import Dict, List
+from typing import List
 
 from dcmrtstruct2nii import dcmrtstruct2nii
 

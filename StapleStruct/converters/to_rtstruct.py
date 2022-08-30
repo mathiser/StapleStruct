@@ -1,10 +1,11 @@
 import os
-from typing import List, Dict
 
 import SimpleITK as sitk
 import pydicom
 from rt_utils import RTStructBuilder
-from staple.staple import LabelImages
+
+from StapleStruct.utils import LabelImages
+
 
 def convert_to_rtstruct(label_images: LabelImages, image_series_folder: str, output_folder: str) -> str:
     rtstruct = RTStructBuilder.create_new(dicom_series_path=image_series_folder)
